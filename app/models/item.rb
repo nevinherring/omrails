@@ -1,4 +1,4 @@
-class Tweet < ApplicationRecord
+class Item < ApplicationRecord
   belongs_to :user
 
   validates :content, presence: true
